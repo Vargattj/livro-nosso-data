@@ -1,9 +1,25 @@
 {
   "cursos": [
-    { "id": 1, "titulo": "Entendendo o ES6", "url": "https://www.codeprestige.com.br/cursos/es6" },
-    { "id": 2, "titulo": "Produtividade Máxima com o VS Code", "url": "https://www.udemy.com/truques-vscode/" },
-    { "id": 3, "titulo": "Entendendo o ES7/ES8", "url": "https://www.codeprestige.com.br/cursos/es7-8" },
-    { "id": 4, "titulo": "React 16 Definitivo", "url": "https://www.udemy.com/react-16/" }
+    {
+      "id": 1,
+      "titulo": "Entendendo o ES6",
+      "url": "https://www.codeprestige.com.br/cursos/es6"
+    },
+    {
+      "id": 2,
+      "titulo": "Produtividade Máxima com o VS Code",
+      "url": "https://www.udemy.com/truques-vscode/"
+    },
+    {
+      "id": 3,
+      "titulo": "Entendendo o ES7/ES8",
+      "url": "https://www.codeprestige.com.br/cursos/es7-8"
+    },
+    {
+      "id": 4,
+      "titulo": "React 16 Definitivo",
+      "url": "https://www.udemy.com/react-16/"
+    }
   ],
   "alunos": [
     { "id": 1, "nome": "Marcela da Silva", "curso": 1 },
@@ -12,7 +28,42 @@
     { "id": 4, "nome": "Felipe da Cunha", "curso": 1 },
     { "id": 5, "nome": "Luiza Cardoso Pereira", "curso": 1 }
   ],
-  "empresa": {
-    "nome": "Code Prestige"
-  }
+  "livros": [
+    {
+      "id": 1,
+      "titulo": "Dom Casmurro",
+      "autor": "Machado de Assis",
+      "categoria": "Literatura",
+      "descricao": "Dom Casmurro é um romance escrito por Machado de Assis, publicado em 1899 pela Livraria Garnier. Escrito para publicação em livro, o que ocorreu em 1900 – embora com data do ano anterior, ao contrário de Memórias Póstumas de Brás Cubas (1881) e Quincas Borba (1891), escritos antes em folhetins –, é considerado pela crítica o terceiro romance da Trilogia Realista de Machado de Assis, ao lado desses outros dois, embora o próprio autor não tenha formulado esta categoria.[1]",
+      "paginas": 256,
+      "imagem": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348286455l/82888.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "O Crime do Padre Amaro",
+      "autor": " Eça de Queirós",
+      "categoria": "Clássicos",
+      "descricao": "O Crime do Padre Amaro apareceu, pela primeira vez, em folhetins, na Revista Ocidental, em 1875, surgindo em volume no ano seguinte. Sabe-se, no entanto, como Eça de Queiroz apurava de edição para edição as suas obras, alterando-lhes, por vezes substancialmente, o estilo, o enredo e a estrutura. A fixação do texto e as notas desta edição de O Crime do Padre Amaro, assim como de todos os títulos subsequentes, são da autoria da Sra. Dra. Helena Cidade Moura, especialista de reconhecido valor no ambito dos estudos queirozianos. A versão tomada como base foi a de 1880, última revista pelo Autor. Inclui-se também uma carta inédita de Antero de Quental, cujo manuscrito autógrafo incompleto se encontra na posse da Familia Eça de Queiroz e que nos foi amavelmente facultado.",
+      "paginas": 503,
+      "imagem": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1203615469l/2872246.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "A Volta ao Mundo em Oitenta Dias",
+      "autor": "Jules Verne",
+      "categoria": "Clássicos",
+      "descricao": "Phileas Fogg, um aristocrata inglês, faz uma aposta arrojada com os membros do seu clube em como dará a volta ao mundo em 80 dias. Parte então à aventura, acompanhado pelo seu criado. Para vencer o desafio, teria de estar de volta a Londres no dia 21 de Dezembro de 1872, às vinte horas e quarenta e cinco minutos. Porém, Fogg é acusado de estar por detrás do assalto ao Banco de Inglaterra, o que fará com que o detective Fix parta no seu encalço, perseguindo-o para onde quer que Fogg vá. Do Egipto à Índia, e depois para a China, Japão, Estados Unidos (São Francisco e Nova Iorque) e de volta a Inglaterra, somos levados numa viagem através de vários continentes, em diversos meios de transporte existentes na época - vapores, comboios, carruagens , e até mesmo elefante -, numa jornada emocionante que desperta o nosso espírito de aventura e nos leva de volta à infância.",
+      "paginas": 256,
+      "imagem": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1249658477l/6683454.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "A Desobediência Civil / Defesa de John Brown",
+      "autor": "Henry David Thoreau",
+      "categoria": "Filosofia",
+      "descricao": "A Desobediência Civil é e continuará a ser o livro-guia de todos os que, aqui e agora, têm consciência das injustiças a que estão sujeitas as minorias, num tempo em que os cidadãos são incitados a prestar culto ao dinheiro, porque o Estado sabe, como Thoreau denuncia, que o dinheiro silencia muitas perguntas que o homem de outro modo seria obrigado a fazer. Martin Luther King leu e releu A Desobediência Civil e nela aprendeu a estratégia da não-violência; Gandhi trazia sempre um exemplar na bagagem e leu outros ensaios do autor; Tolstoi aprendeu também em Thoreau a desobedecer e a organizar a resistência ao poder. O segundo texto de Thoreau, sobre John Brown, é límpido, torrencial, violento, mas profundamente humano e poético. A revolta é nele a consequência lógica dum desejo de harmonia.",
+      "paginas": 120,
+      "imagem": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1450478523l/15790313._SY475_.jpg"
+    }
+  ]
 }
